@@ -12,5 +12,12 @@
         "psr-4": {
             "Epic\\ResponseModule\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Epic\\ResponseModule\\ResponseModuleServiceProvider"
+            ]
+        }
     }
 }
