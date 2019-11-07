@@ -1,0 +1,16 @@
+{
+    "name": "ilya/response-module",
+    "description": "Testing of Laravel packages creation",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john-doe@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Epic\\ResponseModule\\": "src"
+        }
+    }
+}
