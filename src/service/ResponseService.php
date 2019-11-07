@@ -1,12 +1,17 @@
 <?php
 
-
 namespace Epic\ResponseModule\service;
 
+/**
+ * Class ResponseService
+ */
 class ResponseService
 {
+    /**
+     * @return string
+     */
     public function doSmth(): string
     {
-        return 'Updated useful result';
+        return 'Some useful result';
     }
 }
