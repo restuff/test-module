@@ -7,6 +7,6 @@ class ResponseService
 {
     public function doSmth(): string
     {
-        return 'Some useful result';
+        return 'Updated useful result';
     }
 }
